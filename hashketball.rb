@@ -5,6 +5,7 @@ def game_hash
       team_name: "Brooklyn Nets",
       colors: ["Black", "White"],
       players: [
+        {  
           player_name: "Alan Anderson",
           number: 0,
           shoe: 16,
@@ -15,7 +16,8 @@ def game_hash
           blocks: 1,
           slam_dunks: 1 
         },
-        "Reggie Evans" => {
+        {
+          player_name: "Reggie Evans",
           number: 30,
           shoe: 14,
           points: 12,
@@ -25,7 +27,8 @@ def game_hash
           blocks: 12,
           slam_dunks: 7 
         },
-        "Brook Lopez" => {
+        {
+          
           number: 11,
           shoe: 17,
           points: 17,
